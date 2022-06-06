@@ -10,17 +10,31 @@
             font-family: 'verdana';
             width: 1030px;
             margin: auto;
+            border: 1px solid black;
+            margin-top: 50px;
+            height: 1010px;
         }
         header{
             background-color: rgb(86, 86, 206);
-            height: 150px;
+            /* height: 140px; */
             font-size: 40px;
             color: white;
-            top-margin: 0;
+            /* border: 5px solid yellow; */
+            /* text-align: justify; */
+            /* margin-top: 0;
+            padding: 0; */
+            overflow: hidden;
         }
         span{
-            line-height: 150px;
+            /* line-height: 0px; */
             padding-left: 40px;
+            /* padding-bottom: 40px; */
+            /* background-color: yellow; */
+            /* text-align: justify; */
+            /* text-align: center; */
+            /* left: 40px; */
+            /* margin-bottom: 40; */
+            
         }
         footer{
             height: 50px;
@@ -29,24 +43,25 @@
         
         .container{
             position: relative;
-            height: 670px;
-            width: 680px;
-            background-color: rgb(239, 228, 228);
+            height: 680px;
+            width: 1010px;
+            /* background-color: yellow; */
             /* top: 10px; */
             margin: 10px;
+            /* border: 1px solid red; */
         }
-        main{
+        /* main{ */
             /* width: 900px; */
-            position: absolute;
+            /* position: absolute; */
             /* left: 0px; */
             /* top: 0px; */
             /* height: 650px; */
-        }
+            /* margin: 10px;*/
+        /* } */
 
         section{
-            height: 680px;
+            height: 680x;
             width: 680px;
-            padding : 0px;
             display: flex;
             flex-direction: horizontal;
             flex-wrap: wrap;
@@ -57,7 +72,8 @@
             /* padding: 10px; */
             /* float: left; */
             /* position: relative; */
-            width: 300px;
+            /* width: 300px; */
+            flex-basis: 300px;
             height: 300px;
             padding: 10px;
             margin: 10px;
@@ -108,6 +124,7 @@
             width: 1030px;
             background-color: rgb(227, 223, 223);
             /* margin-bottom: 10px; */
+            overflow: hidden;
             
         }
 
@@ -115,10 +132,7 @@
             list-style: none;
             position: absolute;
             width: 100px;
-            /* height: 20px; */
-            padding: 10px;
             text-align: center;
-            line-height: 30px;
             background-color: rgb(227, 223, 223);
         }
         li a{
@@ -144,55 +158,55 @@
 </head>
 <body>
 <!--     (header+(nav>ul>li>a{link item $}*5)+(main>section>header+article*3{Lorem})+(aside>header)+footer) -->
-<header>
-    <h1><span>IBM</span></h1>
-</header>
-<nav>
-    <ul>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-        <li><a href="#">Link 4</a></li>
-        <li><a href="#">Link 5</a></li>
-    </ul>
-</nav>
+    <header>
+        <h1><span>IBM</span></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <main>
+            <section>
+                <article>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolor saepe pariatur porro, asperiores ut vel suscipit eveniet vero earum quos maxime officiis, repellendus ratione quis voluptas deserunt sequi. Beatae.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
+                </article>
+                <article>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ex nisi eveniet nihil velit. Dolor quae, facere unde sapiente facilis aperiam modi nostrum consequuntur qui similique pariatur, eligendi, voluptatum quis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
+                </article>
+                <article>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam error laboriosam aut quia saepe optio explicabo dicta! Eum accusamus, sint magni blanditiis sit reiciendis quibusdam magnam qui voluptas sequi recusandae!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
+                </article>
+                <article>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam error laboriosam aut quia saepe optio explicabo dicta! Eum accusamus, sint magni blanditiis sit reiciendis quibusdam magnam qui voluptas sequi recusandae!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
+                </article>
+            </section>
+            <aside>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
+                </p>
+            </aside>
+        </main>
+    </div>
 
-<div class="container">
-    <main>
-        <section>
-            <article>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolor saepe pariatur porro, asperiores ut vel suscipit eveniet vero earum quos maxime officiis, repellendus ratione quis voluptas deserunt sequi. Beatae.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
-            </article>
-            <article>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ex nisi eveniet nihil velit. Dolor quae, facere unde sapiente facilis aperiam modi nostrum consequuntur qui similique pariatur, eligendi, voluptatum quis!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
-            </article>
-            <article>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam error laboriosam aut quia saepe optio explicabo dicta! Eum accusamus, sint magni blanditiis sit reiciendis quibusdam magnam qui voluptas sequi recusandae!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
-            </article>
-            <article>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam error laboriosam aut quia saepe optio explicabo dicta! Eum accusamus, sint magni blanditiis sit reiciendis quibusdam magnam qui voluptas sequi recusandae!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
-            </article>
-        </section>
-        <aside>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit error quod quam impedit. Dicta in et quaerat, aliquid, ab veritatis dolore animi ipsa non, fugit consectetur sit mollitia nihil?
-            </p>
-        </aside>
-    </main>
-</div>
-
-<footer>
-    <h3>
-        
-    </h3>
-</footer>
+    <footer>
+        <h3>
+            
+        </h3>
+    </footer>
 </body>
 </html>
