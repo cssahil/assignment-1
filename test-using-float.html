@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 1010px;
+            height: 980px;
+            border: 1px solid black;
+            margin: auto;
+            margin-top: 50px;
+        }
+        header{
+            height: 200px;
+            background-color: blueviolet;
+            font-size: 50px;
+            overflow: hidden;
+        }
+        h1{
+            padding-left: 50px;
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+            height: 660px;
+        }
+        section{
+            height: 650px;
+            width: 650px;
+            background-color: rgb(239, 228, 228);
+            float: left;
+            margin: 5px;
+        }
+        article{
+            height: 300px;
+            width: 300px;
+            background-color: white;
+            padding: 5px;
+        }
+        article:nth-child(1){
+            margin-bottom: 10px;
+        }
+        article:nth-child(2){
+            margin-top: 10px;
+        }
+        .left{
+            width: 300px;
+            height: 600px;
+            float: left;
+            padding: 5px;
+            margin: 5px;
+        }
+        .middle{
+            width: 300px;
+            height: 600px;
+            float: left;
+            padding: 5px;
+            margin: 5px;
+        }
+        .right{
+            width: 310px;
+            height: 640px;
+            background-color: silver;
+            float: left;
+            padding: 5px;
+            margin: 5px;
+        }
+        footer{
+            /* border: 1px solid red; */
+            height: 50px;
+            background-color: blueviolet;
+        }
+        nav{
+            width: 1010px;
+            height: 50px;
+            background-color: rgb(227, 223, 223);
+            overflow: hidden;
+        }
+
+        li{
+            list-style: none;
+            float: left;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+        }
+        li:hover{
+            background-color: silver;
+        }
+        li a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <header><h1>IBM</h1></header>
+    <nav>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="left">
+                <article>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis natus fugit fuga corrupti commodi pariatur, tenetur, aut totam voluptatibus voluptates. Ab consequatur sequi iusto porro aspernatur delectus impedit dolorum?
+                </article>
+                <article>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis natus fugit fuga corrupti commodi pariatur, tenetur, aut totam voluptatibus voluptates. Ab consequatur sequi iusto porro aspernatur delectus impedit dolorum?
+                </article>
+            </div>
+            <div class="middle">
+                <article>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis natus fugit fuga corrupti commodi pariatur, tenetur, aut totam voluptatibus voluptates. Ab consequatur sequi iusto porro aspernatur delectus impedit dolorum?
+                </article>
+                <article>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis natus fugit fuga corrupti commodi pariatur, tenetur, aut totam voluptatibus voluptates. Ab consequatur sequi iusto porro aspernatur delectus impedit dolorum?
+                </article>
+            </div>
+        </section>
+        <div class="right">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quisquam aspernatur consectetur repellat, inventore accusamus doloremque quod nulla asperiores, reiciendis rerum vel voluptas iste! Ipsum qui veniam neque rem eum.
+            </p>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
